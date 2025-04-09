@@ -20,6 +20,7 @@ export const Navbar = () => {
                     <Link
                         href="#"
                         passHref
+                        data-testid="desktop-about"
                     >About us
                     </Link>
                     <Link
@@ -56,6 +57,7 @@ export const Navbar = () => {
                             passHref
                             className="text-white text-xl font-semibold mb-4"
                             onClick={() => setMenuOpen(false)}
+                            data-testid="mobile-about"
                         >
                             About us
                         </Link>
